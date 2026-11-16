@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "Smart Paddy Irrigation System Using IoT in Anuradhapura",
+        "category": "Technology",
+        "author": "Dr. Nimal Perera & Team",
+        "year": "2026",
+        "image": "https://images.unsplash.com/photo-1586771107445-d3ca888129ff?auto=format&fit=crop&w=600&q=80",
+        "summary": "An automated soil-moisture sensor network designed to reduce water wastage by 35% in Sri Lanka's North Central Province.",
+        "details": "This study deployed low-cost LoRaWAN soil moisture and weather sensors across 15 paddy fields in Anuradhapura. Real-time data was transmitted to farmers via a mobile dashboard, optimizing irrigation schedules and increasing crop yield while conserving reservoir water."
+    },
+    {
+        "id": 2,
+        "title": "Mangrove Restoration & Coastal Carbon Sequestration in Negombo",
+        "category": "Environment",
+        "author": "Prof. Chamari Silva",
+        "year": "2025",
+        "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=600&q=80",
+        "summary": "Evaluating blue carbon storage capacity and biodiversity recovery in rehabilitated mangrove ecosystems.",
+        "details": "Over a 24-month period, researchers measured biomass growth and sediment carbon levels in replanted mangrove zones around the Negombo Lagoon. Findings highlight a 42% increase in juvenile fish habitats and significant coastal erosion protection."
+    },
+    {
+        "id": 3,
+        "title": "Digital Payment Adoption Among Rural SMEs in Sri Lanka",
+        "category": "Management",
+        "author": "W.M.S.S. Weerakoon & Research Group",
+        "year": "2026",
+        "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=600&q=80",
+        "summary": "Investigating barriers and catalysts for QR-based fintech adoption among small-scale retail merchants.",
+        "details": "Based on survey data from 300 rural entrepreneurs, this research analyzes trust factors, transaction fee sensitivity, and digital literacy impacts on LankaQR adoption, offering policy recommendations for regional banking institutions."
+    },
+    {
+        "id": 4,
+        "title": "AI-Powered Early Detection of Tea Leaf Blister Blight",
+        "category": "Technology",
+        "author": "K.D. Jayasinghe",
+        "year": "2026",
+        "image": "https://images.unsplash.com/photo-1597318181409-cf64d0b5d8a2?auto=format&fit=crop&w=600&q=80",
+        "summary": "A lightweight convolutional neural network (CNN) mobile tool for upcountry tea estate workers.",
+        "details": "Trained on 8,500 high-resolution leaf images from Nuwara Eliya estates, this offline-capable mobile application identifies early fungal infection with 94.2% accuracy, enabling targeted fungicide application."
+    },
+    {
+        "id": 5,
+        "title": "Sustainable Eco-Tourism Supply Chains in Ella & Haputale",
+        "category": "Management",
+        "author": "S.M. Rathnayake",
+        "year": "2025",
+        "image": "https://images.unsplash.com/photo-1588598198321-9735fd52455b?auto=format&fit=crop&w=600&q=80",
+        "summary": "Assessing community-based tourism models and local economic retention in Sri Lanka's hill country.",
+        "details": "This study maps the value chain of boutique eco-lodges and homestays, demonstrating how direct sourcing from local organic farmers increases community income retention by 28%."
+    },
+    {
+        "id": 6,
+        "title": "Solar Microgrid Feasibility for Off-Grid Island Communities",
+        "category": "Environment",
+        "author": "Eng. R. Bandara",
+        "year": "2026",
+        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=600&q=80",
+        "summary": "Technical and financial modeling of hybrid solar-battery microgrids for Northern Province islands.",
+        "details": "Using HOMER Pro simulations and load profiling, this research outlines a scalable 150kW solar microgrid blueprint capable of delivering 24/7 clean electricity while reducing diesel generator dependency by 80%."
+    }
+]

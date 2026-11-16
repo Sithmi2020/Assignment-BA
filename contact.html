@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResearchHub LK | Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">ResearchHub <span>LK</span></div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Research Portfolio</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="themeToggle" class="theme-btn" aria-label="Toggle Dark Mode">🌙</button>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container page-section">
+        <header class="page-header">
+            <h1>Contact & Research Inquiries</h1>
+            <p>Have a research proposal, partnership idea, or academic inquiry? Reach out to our team.</p>
+        </header>
+
+        <div class="contact-wrapper">
+            <section class="contact-info card">
+                <img src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=600&q=80" alt="ResearchHub LK Center Colombo" class="card-img">
+                <div class="card-body">
+                    <h3>Get in Touch</h3>
+                    <p><strong>Address:</strong> No. 45, Reid Avenue, Colombo 07, Sri Lanka</p>
+                    <p><strong>Email:</strong> info@researchhub.lk</p>
+                    <p><strong>Phone:</strong> +94 11 269 4500</p>
+                    <p><strong>Working Hours:</strong> Mon - Fri, 8:30 AM - 5:00 PM</p>
+                </div>
+            </section>
+
+            <section class="contact-form-section card">
+                <div class="card-body">
+                    <form id="contactForm" novalidate>
+                        <div class="form-group">
+                            <label for="fullName">Full Name *</label>
+                            <input type="text" id="fullName" name="fullName" placeholder="e.g., Kasun Perera">
+                            <small class="error-msg" id="nameError"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" placeholder="e.g., kasun@university.lk">
+                            <small class="error-msg" id="emailError"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Inquiry Type *</label>
+                            <select id="subject" name="subject">
+                                <option value="">-- Select a Topic --</option>
+                                <option value="Publication">Submit a Research Paper</option>
+                                <option value="Collaboration">Research Collaboration</option>
+                                <option value="General">General Inquiry</option>
+                            </select>
+                            <small class="error-msg" id="subjectError"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Write your message here (minimum 20 characters)..."></textarea>
+                            <small class="error-msg" id="messageError"></small>
+                        </div>
+
+                        <button type="submit" class="btn primary-btn full-width">Send Message</button>
+                        <div id="formSuccess" class="success-banner" style="display: none;">
+                            ✅ Thank you! Your inquiry has been submitted to ResearchHub LK.
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 ResearchHub LK. All Rights Reserved.</p>
+            <p>Colombo, Sri Lanka | info@researchhub.lk</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

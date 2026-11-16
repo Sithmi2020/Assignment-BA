@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResearchHub LK | Research Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">ResearchHub <span>LK</span></div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html" class="active">Research Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="themeToggle" class="theme-btn" aria-label="Toggle Dark Mode">🌙</button>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container page-section">
+        <header class="page-header">
+            <h1>Published Research & Projects</h1>
+            <p>Browse our latest peer-reviewed studies and ongoing innovation projects across Sri Lanka.</p>
+        </header>
+
+        <div class="filter-controls">
+            <button class="filter-btn active" data-category="All">All</button>
+            <button class="filter-btn" data-category="Technology">Technology</button>
+            <button class="filter-btn" data-category="Environment">Environment</button>
+            <button class="filter-btn" data-category="Management">Management</button>
+        </div>
+
+        <!-- Dynamic Content Rendered Here from projects.json -->
+        <section id="portfolioContainer" class="grid-3">
+            <p class="loading-text">Loading research projects...</p>
+        </section>
+    </main>
+
+    <!-- Modal Popup for Project Details -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" id="closeModal">&times;</span>
+            <img id="modalImage" src="" alt="Project Banner" class="modal-img">
+            <span id="modalCategory" class="badge"></span>
+            <h2 id="modalTitle"></h2>
+            <p class="modal-meta"><strong>Lead Researcher:</strong> <span id="modalAuthor"></span> | <strong>Year:</strong> <span id="modalYear"></span></p>
+            <p id="modalDescription" class="modal-body"></p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 ResearchHub LK. All Rights Reserved.</p>
+            <p>Colombo, Sri Lanka | info@researchhub.lk</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
